@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <style>
+  ::selection {background: powderblue; color: black;}
+  </style>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <meta name="google-site-verification" content="39789Jj95lMFxK6SnY6_VA63lRdcE9ciDstL7NSyIIg" />
+  </head>
+  <style>
+  ::selection {background: powderblue; color: black;}
+  </style>
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

@@ -1,0 +1,66 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+redirect_from:
+  - /publications
+---
+{% include base_path %}
+
+<h2> Thesis </h2>
+<ul style="list-style-position: none; padding-left: 0;">
+{% for proj in site.projects reversed %}
+  {% if proj.thesis %}
+  <li>
+    <table class="_proj_highlight">
+      <tr> 
+        <td rowspan="3" style="width: 30%; padding-right: 5em;"> <img src="{{ proj.img}}" /> </td> 
+        <th style="width=50%"> {{ proj. title }} </th>
+        <td style="text-align: right;">
+          {% for link in proj.links %}
+          [<a href="{{ link.url }}"> {{ link.title}} </a>]
+          {% endfor %}
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><strong>Date:</strong> {{ proj.date_ }} </td> 
+      </tr>
+      <tr>
+        <td colspan="2">
+          {{ proj.content }}
+        </td>
+      </tr>
+    </table>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+<h2> Course Projects </h2>
+<ul style="list-style-position: none; padding-left: 0;">
+{% for proj in site.projects reversed %}
+  {% unless proj.thesis %}
+  <li>
+    <table class="_proj_highlight">
+      <tr> 
+        <td rowspan="3" style="width: 30%; padding-right: 5em;"> <img src="{{ proj.img}}" /> </td> 
+        <th style="width=50%"> {{ proj. title }} </th>
+        <td style="text-align: right;">
+          {% for link in proj.links %}
+          [<a href="{{ link.url }}"> {{ link.title}} </a>]
+          {% endfor %}
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><strong>Date:</strong> {{ proj.date_ }} </td> 
+      </tr>
+      <tr>
+        <td colspan="2">
+          {{ proj.content }}
+        </td>
+      </tr>
+    </table>
+    </li>
+  {% endunless %}
+{% endfor %}
+</ul>
