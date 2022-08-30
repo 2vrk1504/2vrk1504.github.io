@@ -9,7 +9,5 @@ I completed my Master's Thesis under the guidance of Prof. Devendra Jalihal and 
 
 **Abstract**: 
 The aim of the project involves blind estimation of link parameters like symbol rate, roll off factor, FEC scheme, 
-and modulation scheme (namely BPSK, QPSK, 8PSK and 16QAM) used between two satellite modems communicating on the shared center frequency and then separating both streams using the estimated parameters. 
-For successful symbol separation, we develop novel algorithms for estimating impairments like CFO and timing offsets of both the carriers together.
+and modulation scheme used between two satellite modems communicating on the shared center frequency and then separating both streams using the estimated parameters. For successful symbol separation, we develop novel algorithms for estimating impairments like CFO and timing offsets of both the carriers together.
 
-**Note:** This is a sponsored project.
