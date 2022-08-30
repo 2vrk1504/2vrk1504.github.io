@@ -1,11 +1,11 @@
 ---
 title:  "Blind Estimation of Communication Link Parameters and Signal Separation of Co- Frequency Signals  in Wireless Communication."
 thesis: true
-date_: "September 2020 – Present"
+date_: "September 2020 – May 2022"
 img: /images/pcma.png
 links:
 ---
-I am doing my Master's Thesis under the guidance of Prof. Devendra Jalihal and also the mentorship of Prof. Radhakrishna Ganti at IITM.
+I completed my Master's Thesis under the guidance of Prof. Devendra Jalihal and also the mentorship of Prof. Radhakrishna Ganti at IITM.
 
 **Abstract**: 
 The aim of the project involves blind estimation of link parameters like symbol rate, roll off factor, FEC scheme, 
