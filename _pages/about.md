@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year Dual Degree student (joint BTech and MTech) from the [Department of Electrical Engineering](https://www.ee.iitm.ac.in/), [IIT Madras](iitm.ac.in), Chennai.
+I am currently a Graduate Student Researcher in [LIDS](https://lids.mit.edu/) at [MIT](https://www.mit.edu/), advised by [Prof. Eytan Modiano](https://modiano.mit.edu/). 
 
-I am currently part of a team guided by [Prof. Devendra Jalihal](https://www.ee.iitm.ac.in/user/dj1/) and [Prof. Radhakrishna Ganti](http://www.ee.iitm.ac.in/rganti/). My master's thesis is under the guidance of Prof. Devendra Jalihal on the topic of blind signal detection and separation in the presence of strong interference. 
+I completed my Bachelors and Masters in Technology from the [Department of Electrical Engineering](https://www.ee.iitm.ac.in/), [IIT Madras](iitm.ac.in), Chennai, advised by [Prof. Devendra Jalihal](https://www.ee.iitm.ac.in/user/dj1/) and [Prof. Radhakrishna Ganti](http://www.ee.iitm.ac.in/rganti/).
 
 My research interests include wireless communication systems and circuits, information theory, estimation theory and signal processing.
