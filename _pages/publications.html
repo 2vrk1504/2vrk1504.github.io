@@ -8,19 +8,26 @@ author_profile: true
 {% include base_path %}
 
 <ul style="list-style-position: none; padding-left: 0;">
-{% for post in site.publications reversed %}
+{% for pub in site.publications reversed %}
   <li>
     <table class="_proj_highlight">
       <tr> 
-        <th> {{ post.title }} </th>
+        <td><a href="{{pub.link}}">{{ pub.title }} </td>
       </tr>
       <tr>
-        <td>
-          {% if post.date_ != "" %}
-          <strong>Period:</strong> {{ post.date_ }} <br>
-          {% endif %}
-          {{ post.content }}
-        </td> 
+        <td>Authors:</td>
+        <td>{{ pub.authors }}</td>
+      </tr>
+      <tr>
+        <td>{{pub.type}}: </td>
+        <td>{{ pub.name }}</td>
+      </tr>
+      <tr>
+        <td>{{pub.type}}: </td>
+        <td>{{ pub.name }}</td>
+        {% if pub.type == "Conference"%}
+        <td>{{ pub.location }}</td>
+        {% endif %}
       </tr>
     </table>
     </li>
