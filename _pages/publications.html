@@ -1,1 +1,28 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
 
+{% include base_path %}
+
+<ul style="list-style-position: none; padding-left: 0;">
+{% for post in site.publications reversed %}
+  <li>
+    <table class="_proj_highlight">
+      <tr> 
+        <th> {{ post.title }} </th>
+      </tr>
+      <tr>
+        <td>
+          {% if post.date_ != "" %}
+          <strong>Period:</strong> {{ post.date_ }} <br>
+          {% endif %}
+          {{ post.content }}
+        </td> 
+      </tr>
+    </table>
+    </li>
+{% endfor %}
+</ul>
